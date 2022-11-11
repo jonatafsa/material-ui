@@ -1,11 +1,9 @@
-import imgIcon from '../assets/img-icon.svg';
-import imgIconDark from '../assets/img-icon-1.svg';
-
-
-import imgPost from '../assets/post.png';
-import userImg from '../assets/user-5.png';
-import linkIcon from '../assets/link-icon.svg';
-import '../styles/components/post.scss'
+import React from "react";
+import imgPost from './assets/post.png';
+import userImg from './assets/user-5.png';
+import linkIcon from './assets/link-icon.svg';
+import './styles/global.scss'
+import './styles/components/post.scss'
 
 export default function Post() {
   return (

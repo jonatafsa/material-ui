@@ -1,4 +1,4 @@
-import './styles/global.scss'
+import './styles/main.scss'
 
 import { Button } from './lib/Button';
 import Card from './lib/Card';
@@ -11,31 +11,45 @@ import UserCard from './lib/UserCard';
 import UserCardThin from './lib/UserCardThin';
 import UsersCard from './lib/UsersCard';
 
+import accessImg1 from './assets/access-1.svg';
+import accessImg2 from './assets/access-2.svg';
+import accessImg3 from './assets/access-3.svg';
+import userThinImage from './assets/user-thin.png';
+import userImage from './assets/user.png';
+import user1 from './assets/user-1.png';
+import user2 from './assets/user-2.png';
+import user3 from './assets/user-3.png';
+import user4 from './assets/user-4.png';
+import imgPost from './assets/post.png';
+import userAvatar from './assets/user-5.png';
+import postCommentImg from './assets/post-comment.png';
+import postImage from './assets/post-image.png';
+
 function App() {
 
   const users = [
     {
       name: 'Jane Cooper',
       description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elitquas quo autem.',
-      image: "/assets/user-3.png",
+      image: user3,
       gender: "woman"
     },
     {
       name: 'Esther Howard',
       description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam est quis ',
-      image: "/assets/user-1.png",
+      image: user1,
       gender: "man"
     },
     {
       name: 'Leslie Alexander',
       description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam est quis ',
-      image: "/assets/user-2.png",
+      image: user2,
       gender: "man"
     },
     {
       name: 'Guy Howkins',
       description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam est quis.',
-      image: "/assets/user-4.png",
+      image: user4,
       gender: "woman"
     }
   ]
@@ -48,7 +62,7 @@ function App() {
       <UserCard
         name="Jane Cooper"
         occupation=" Medical Assistant"
-        image="/assets/user.png"
+        image={userImage}
         description={`Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Dignissimos sed recusandae fugiat, ipsum, error repellendus
         temporibus nihil nemo corrupti aut quos expedita accusantium a
@@ -63,17 +77,41 @@ function App() {
         userId="ID_HERE"
         name="Jane Cooper"
         occupation=" Medical Assistant"
-        image="/assets/user-thin.png"
+        image={userThinImage}
         description={`Lorem ipsum est, en imprimerie,`}
       />
 
-      <Post />
+      <Post
+        userAvatar={userAvatar}
+        userName="Jane Cooper"
+        userDescription="Le lorem ipsum est, in imprimerie"
+        postDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quisquam minima beatae, provident dicta maxime distinctio delectus, similique rem nesciunt molestiae, doloribus sapiente."
+        postImage={imgPost}
+        link="#link-to"
+      />
 
-      <Card />
+      <Card
+        title="40% Get access"
+        description="Get access to premium features"
+        // image={accessImg1}
+        icon1={accessImg1}
+        icon2={accessImg2}
+        icon3={accessImg3}
+        link="#Get-access"
+      />
 
-      <PostThin />
+      <PostThin
+        userName="Jane Cooper"
+        userDescription="Le lorem ipsum est, in imprimerie"
+        postDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quisquam minima beatae."
+        postImage={postImage}
+      />
 
-      <PostComment />
+      <PostComment
+        userName="Jane Cooper"
+        postDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quisquam minima beatae."
+        postImage={postCommentImg}
+      />
 
       <InputSwitch
         id="input-switch-1"

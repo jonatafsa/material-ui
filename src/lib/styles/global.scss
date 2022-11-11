@@ -1,0 +1,56 @@
+/* _________________________ Imports _________________________ */
+
+@font-face {
+  font-family: 'avenir regular';
+  src: url('./fonts/AvenirLTStd-Roman.otf');
+}
+
+@font-face {
+  font-family: 'avenir Bold';
+  src: url('./fonts/AvenirLTStd-Black.otf');
+}
+
+@font-face {
+  font-family: 'avenir thin';
+  src: url('./fonts/AvenirLTStd-Book.otf');
+}
+
+/* _________________________ Website Theme _________________________ */
+
+:root {
+  --hue-1: 209;
+  --hue-2: 359;
+  --main-color-1: hsl(var(--hue-1), 46%, 32%);
+  --main-color-dark-1: hsl(var(--hue-1), 69%, 50%);
+  --main-color-2: hsl(var(--hue-2), 82%, 70%);
+  --main-color-dark-2: hsl(var(--hue-2), 82%, 55%);
+  --section-padding: 7rem;
+}
+
+body {
+  --bg-color: hsl(var(--hue-1), 0%, 0%);
+  --bg-color-1: hsl(var(--hue-1), 25%, 20%);
+  --bg-color-2: #fff;
+  --bg-color-3: hsl(var(--hue-1), 100%, 98%);
+  --bg-color-transparent: hsla(var(--hue-1), 8%, 9%, 0.901);
+  --heading-color: hsl(var(--hue-1), 61%, 24%);
+  --text-color: hsl(var(--hue-1), 20%, 15%);
+  --text-color-strong: hsl(var(--hue-1), 8%, 30%);
+}
+
+/* _________________________ General Styles _________________________ */
+
+.dev-web-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--main-color-1);
+  font-weight: 800;
+  font-family: 'avenir Bold', sans-serif;
+  letter-spacing: .4px;
+}
+
+.dev-web-text {
+  font-size: .85rem;
+  font-weight: 400;
+  color: #999;
+}

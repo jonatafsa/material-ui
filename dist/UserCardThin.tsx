@@ -1,7 +1,9 @@
-import imgIcon from '../assets/img-icon.svg';
-import imgIconDark from '../assets/img-icon-1.svg';
+import React from "react";
+import imgIcon from './assets/img-icon.svg';
+import imgIconDark from './assets/img-icon-1.svg';
 
-import '../styles/components/user-card-thin.scss'
+import './styles/global.scss'
+import './styles/components/user-card-thin.scss'
 
 interface UserCardProps {
   name: string;

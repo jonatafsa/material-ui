@@ -1,6 +1,8 @@
-import postImage from '../assets/post-image.png';
+import React from "react";
+import postImage from './assets/post-image.png';
 
-import '../styles/components/post-thin.scss';
+import './styles/global.scss'
+import './styles/components/post-thin.scss';
 
 export default function PostThin() {
   return (

@@ -1,13 +1,13 @@
-import { Button } from "../lib/Button";
-import Card from "../lib/Card";
-import InputSwitch from "../lib/InputSwitch";
-import Post from "../lib/Post";
-import PostComment from "../lib/PostComment";
-import PostThin from "../lib/PostThin";
-import Toast, { toast } from "../lib/Toast";
-import UserCard from "../lib/UserCard";
-import UserCardThin from "../lib/UserCardThin";
-import UsersCard from "../lib/UsersCard";
+import { Button } from "./Button";
+import Card from "./Card";
+import InputSwitch from "./InputSwitch";
+import Post from "./Post";
+import PostComment from "./PostComment";
+import PostThin from "./PostThin";
+import Toast, { toast } from "./Toast";
+import UserCard from "./UserCard";
+import UserCardThin from "./UserCardThin";
+import UsersCard from "./UsersCard";
 
 export {
   Button,

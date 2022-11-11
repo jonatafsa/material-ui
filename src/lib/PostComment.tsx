@@ -1,18 +1,22 @@
-import postCommentImg from '../assets/post-comment.png';
-import postCommentIcon from '../assets/send-icon.svg';
-import '../styles/components/post-comment.scss';
+import React from "react";
+import postCommentIcon from './assets/send-icon.svg';
+import './styles/global.scss'
+import './styles/components/post-comment.scss';
 
-export default function PostComment() {
+interface PostCommentProps {
+  userName: string;
+  postDescription: string;
+  postImage?: string;
+}
+
+export default function PostComment(props: PostCommentProps) {
   return (
     <div className="post-comment">
-      <img src={postCommentImg} alt="" />
+      <img src={props.postImage} alt="" />
 
-      <h3>Janne Cooper</h3>
+      <h3>{props.userName}</h3>
 
-      <p>
-        Le lorem ipsum est, en imprimerie, une suite de mots
-        sans signification.
-      </p>
+      <p className="dev-web-text">{props.postDescription}</p>
 
       <div className="comment">
         <input type="text" placeholder="Comment" />

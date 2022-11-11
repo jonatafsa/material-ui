@@ -1,5 +1,6 @@
-import react from 'react';
-import '../styles/components/button.scss';
+import React from "react";
+import './styles/components/button.scss';
+import './styles/global.scss'
 
 interface ButtonProps {
   text: string;

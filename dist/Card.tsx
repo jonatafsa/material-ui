@@ -1,9 +1,11 @@
-import accessImg from '../assets/access.png';
-import thunderImg from '../assets/thunder-icon.svg';
-import accessImg1 from '../assets/access-1.svg';
-import accessImg2 from '../assets/access-2.svg';
-import accessImg3 from '../assets/access-3.svg';
-import '../styles/components/card.scss'
+import React from "react";
+import accessImg from './assets/access.png';
+import thunderImg from './assets/thunder-icon.svg';
+import accessImg1 from './assets/access-1.svg';
+import accessImg2 from './assets/access-2.svg';
+import accessImg3 from './assets/access-3.svg';
+import './styles/global.scss'
+import './styles/components/card.scss'
 
 export default function Card() {
   return (

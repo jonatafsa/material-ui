@@ -1,0 +1,50 @@
+.user-card {
+  background-color: #fff;
+  border-radius: 22px;
+  max-width: 520px;
+  max-height: 340px;
+  padding: 2rem;
+  position: relative;
+  margin: .5rem;
+  font-family: "avenir regular", serif;
+
+  .more-icon {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    transition: .3s transform;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  .user-header {
+    display: flex;
+    gap: 1.4rem;
+
+    img {
+      width: 120px;
+      height: 120px;
+      border-radius: 22px;
+    }
+
+    .user-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: .5rem;
+    }
+  }
+
+  .description {
+    font-size: .9rem;
+    font-weight: 400;
+    color: #999;
+    margin-top: 1.5rem;
+    line-height: 1.5;
+  }
+}

@@ -1,6 +1,8 @@
-import moreIcon from '../assets/more.svg';
+import React from "react";
+import moreIcon from './assets/more.svg';
 
-import '../styles/components/user-card.scss'
+import './styles/global.scss'
+import './styles/components/user-card.scss'
 
 interface UserCardProps {
   name: string;
@@ -16,8 +18,8 @@ export default function UserCard(props: UserCardProps) {
       <div className="user-header">
         <img src={props.image} alt="User" />
         <div className="user-info">
-          <h3>{props.name}</h3>
-          <p>{props.occupation}</p>
+          <h3 className="dev-web-title">{props.name}</h3>
+          <p className="dev-web-text">{props.occupation}</p>
         </div>
       </div>
 

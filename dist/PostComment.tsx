@@ -1,6 +1,8 @@
-import postCommentImg from '../assets/post-comment.png';
-import postCommentIcon from '../assets/send-icon.svg';
-import '../styles/components/post-comment.scss';
+import React from "react";
+import postCommentImg from './assets/post-comment.png';
+import postCommentIcon from './assets/send-icon.svg';
+import './styles/global.scss'
+import './styles/components/post-comment.scss';
 
 export default function PostComment() {
   return (

@@ -1,4 +1,6 @@
-import '../styles/components/users-card.scss'
+import React from "react";
+import './styles/global.scss'
+import './styles/components/users-card.scss'
 
 interface Users {
   name: string;

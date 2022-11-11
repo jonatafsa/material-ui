@@ -94,15 +94,3 @@ p {
   background-color: hsla(var(--hue-1), 100%, 60%, 0.9);
   color: #FFF;
 }
-
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  height: 100vh;
-  // padding: 1rem;
-  // overflow: hidden;
-}

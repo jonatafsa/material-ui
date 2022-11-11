@@ -1,8 +1,10 @@
-import '../styles/components/toast.scss';
-import check from '../assets/check.svg';
-import error from '../assets/error.svg';
-import info from '../assets/info.svg';
-import warning from '../assets/warning.svg';
+import React from "react";
+import check from './assets/check.svg';
+import error from './assets/error.svg';
+import info from './assets/info.svg';
+
+import './styles/global.scss'
+import './styles/components/toast.scss';
 
 interface ToastProps {
   message: string;

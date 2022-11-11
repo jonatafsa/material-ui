@@ -1,0 +1,73 @@
+.user-card-thin {
+  background-color: #fff;
+  border-radius: 22px;
+  max-width: 610px;
+  width: 100%;
+  max-height: 220px;
+  padding: 1rem;
+  position: relative;
+  display: flex;
+  gap: 1.4rem;
+  margin: .5rem;
+  font-family: "avenir regular", serif;
+
+  img {
+    width: 230px;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  .user-card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+
+    .description {
+      font-size: .9rem;
+      font-weight: 400;
+      color: #999;
+    }
+
+    .user-content {
+      display: flex;
+      justify-content: center;
+      gap: .5rem;
+      max-height: 50%;
+
+      .item {
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+
+        .icon {
+          width: 60px;
+          height: 60px;
+          border-radius: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          img {
+            width: 42px;
+            height: 42px;
+            border-radius: 5px;
+            padding: .5rem;
+          }
+        }
+
+        .item-data {
+          display: flex;
+          flex-direction: column;
+          gap: .2rem;
+
+          p {
+            font-size: .65rem;
+          }
+        }
+      }
+    }
+  }
+
+
+}

@@ -1,6 +1,8 @@
-import moreIcon from '../assets/more.svg';
+import React from "react";
+import moreIcon from './assets/more.svg';
 
-import '../styles/components/user-card.scss'
+import './styles/global.scss'
+import './styles/components/user-card.scss'
 
 interface UserCardProps {
   name: string;

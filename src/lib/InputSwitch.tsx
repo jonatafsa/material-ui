@@ -1,4 +1,6 @@
-import '../styles/components/input-switch.scss'
+import React from "react";
+import './styles/global.scss'
+import './styles/components/input-switch.scss'
 
 interface InputSwitchProps {
   id: string;

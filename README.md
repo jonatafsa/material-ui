@@ -11,12 +11,14 @@
 
 [![license](https://img.shields.io/npm/l/devweb-materialui?style=for-the-badge)](https://github.com/jonatafsa/material-ui/LICENSE)
 [![npm latest package](https://img.shields.io/npm/v/devweb-materialui?style=for-the-badge)](https://www.npmjs.com/package/devweb-materialui)
-[![code size]](https://img.shields.io/github/languages/code-size/jonatafsa/material-ui?style=for-the-badge)
-[![npm build](https://img.shields.io/github/checks-status/jonatafsa/material-ui/master?style=for-the-badge)]
-[![github languages](https://img.shields.io/github/languages/count/jonatafsa/material-ui?style=for-the-badge)]
-[![all releases](https://img.shields.io/github/downloads/jonatafsa/material-ui/total?style=for-the-badge)]
-[![github Sponsors](https://img.shields.io/github/sponsors/jonatafsa?style=for-the-badge)]
-[![GitHub contributors](https://img.shields.io/github/contributors/jonatafsa/material-ui?style=for-the-badge)]
+
+[![code size](https://img.shields.io/github/languages/code-size/jonatafsa/material-ui?style=for-the-badge)
+
+[![npm build](https://img.shields.io/github/checks-status/jonatafsa/material-ui/master?style=for-the-badge)
+[![github languages](https://img.shields.io/github/languages/count/jonatafsa/material-ui?style=for-the-badge)
+[![all releases](https://img.shields.io/github/downloads/jonatafsa/material-ui/total?style=for-the-badge)
+[![github Sponsors](https://img.shields.io/github/sponsors/jonatafsa?style=for-the-badge)
+[![GitHub contributors](https://img.shields.io/github/contributors/jonatafsa/material-ui?style=for-the-badge)
 
 </div>
 

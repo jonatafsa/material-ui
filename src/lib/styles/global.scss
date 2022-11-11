@@ -40,6 +40,12 @@ body {
 
 /* _________________________ General Styles _________________________ */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .dev-web-title {
   font-size: 1.8rem;
   font-weight: 600;

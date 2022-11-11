@@ -18,7 +18,7 @@ export default function Card(props: CardProps) {
   return (
     <div className="card">
       <div className="card-content">
-        <span> <img src={thunderImg} alt="" /> {props.title} </span>
+        <span className="dev-web-title"> <img src={thunderImg} alt="" /> {props.title} </span>
         <h2>{props.description}</h2>
         <div className="icons">
           <img src={props.icon1} alt="lock" />

@@ -1,5 +1,4 @@
 import React from "react";
-import imgIcon from './assets/img-icon.svg';
 import imgIconDark from './assets/img-icon-1.svg';
 
 import './styles/global.scss'
@@ -19,10 +18,10 @@ export default function UserCardThin(props: UserCardProps) {
       <img src={props.image} alt="User" />
 
       <div className="user-card-info">
-        <h3>{props.name}</h3>
-        <p>{props.occupation}</p>
+        <h3 className="dev-web-title">{props.name}</h3>
+        <p className="dev-web-text">{props.occupation}</p>
 
-        <p className="description">{props.description}</p>
+        <p className="description dev-web-text">{props.description}</p>
 
         <div className="user-content">
           <div className="item">

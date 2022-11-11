@@ -1,31 +1,40 @@
 import React from "react";
-import imgPost from './assets/post.png';
-import userImg from './assets/user-5.png';
 import linkIcon from './assets/link-icon.svg';
 import './styles/global.scss'
 import './styles/components/post.scss'
 
-export default function Post() {
+interface PostProps {
+  userAvatar: string;
+  userName: string;
+  userDescription: string;
+  postDescription: string;
+  postImage?: string;
+  link?: string;
+}
+
+export default function Post(props: PostProps) {
   return (
     <div className="post">
-      <img src={imgPost} alt="Postagem" />
 
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-        quisquam minima beatae, provident dicta maxime distinctio delectus,
-        similique rem nesciunt molestiae, doloribus sapiente.
-      </p>
+      {props.postImage ? <img src={props.postImage} alt="Postagem" /> : ""}
+
+
+      {/* <img src={props.postImage} alt="Postagem" /> */}
+
+
+      <p className="dev-web-text">{props.postDescription}</p>
 
       <div className="user-data">
         <div className="user-content">
-          <img src={userImg} alt="Icone" />
+          <img src={props.userAvatar} alt="Icone" />
           <div>
-            <h4>Jane Cooper</h4>
-            <p>Le lorem ipsum est, in imprimerie</p>
+            <h4>{props.userName}</h4>
+            <p className="dev-web-text">{props.userDescription}</p>
           </div>
         </div>
 
-        <img src={linkIcon} alt="" />
+
+        {props.link ? <a href={props.link}><img src={linkIcon} alt="" /></a> : ""}
       </div>
     </div>
   )

@@ -22,8 +22,8 @@ export default function UsersCard(props: UsersProps) {
           <img src={user.image} alt="" />
 
           <div className="user-data">
-            <h3 style={user.gender === "woman" ? { color: "var(--main-color-2)" } : {}}>{user.name}</h3>
-            <p>{user.description}</p>
+            <h3 className="dev-web-title" style={user.gender === "woman" ? { color: "var(--main-color-2)" } : {}}>{user.name}</h3>
+            <p className="dev-web-text">{user.description}</p>
           </div>
         </div>
       ))}

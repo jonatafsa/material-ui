@@ -1,0 +1,46 @@
+.button {
+  padding: 1rem 2rem;
+  margin: .5rem;
+  max-width: 200px;
+  width: 100%;
+  border-radius: 10px;
+  font-family: "avenir thin", serif;
+  font-size: 1rem;
+  border: 0;
+  transition: .5s ease;
+  cursor: pointer;
+  color: rgb(148, 148, 148);
+
+  &:hover {
+    filter: brightness(.9);
+  }
+
+  &:active {
+    filter: brightness(1.1);
+  }
+
+  &.primary {
+    background-color: var(--main-color-1);
+    color: #FFF;
+  }
+
+  &.secondary {
+    background-color: var(--main-color-2);
+    color: #FFF;
+  }
+
+  &.warning {
+    background-color: rgb(196, 193, 23);
+    color: #FFF;
+  }
+
+  &.danger {
+    background-color: rgb(145, 18, 18);
+    color: #FFF;
+  }
+
+  &.success {
+    background-color: rgb(18, 145, 18);
+    color: #FFF;
+  }
+}
